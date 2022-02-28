@@ -20,8 +20,8 @@ import org.springframework.context.annotation.Configuration;
  * @Author ZX
  * @Date 2020/6/1
  */
-//@Configuration
-//@EnableBatchProcessing
+@Configuration
+@EnableBatchProcessing
 public class FileItemWriterDemo {
     @Autowired
     private JobBuilderFactory jobBuilderFactory;

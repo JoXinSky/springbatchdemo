@@ -26,8 +26,8 @@ import java.util.List;
  * @Author ZX
  * @Date 2020/6/2
  */
-@Configuration
-@EnableBatchProcessing
+//@Configuration
+//@EnableBatchProcessing
 public class ItemProcessorDemo {
     @Autowired
     private JobBuilderFactory jobBuilderFactory;
